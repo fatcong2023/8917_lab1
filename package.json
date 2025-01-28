@@ -1,0 +1,19 @@
+{
+    "name": "azure-function-hello-world",
+    "version": "1.0.0",
+    "description": "Azure Function Hello World API",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "prestart": "npm run build",
+        "start": "func start",
+        "test": "echo \"No tests specified\""
+    },
+    "dependencies": {
+        "@azure/functions": "^3.5.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.x",
+        "typescript": "^4.9.5"
+    }
+} 
